@@ -5,5 +5,6 @@ from random import randint as rnum
 
 
 print("Hello! This is the random number game. First, ")
-name = input("What is your name?")
+name = input("What is your name? ")
 
+print("Hello " + name + "!")
