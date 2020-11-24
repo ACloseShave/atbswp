@@ -17,15 +17,19 @@ print("Here's how to play:")
 print("I'm thinking of a number between 1 and 20")
 print("You have 4 guesses to get it right")
 
+guess = int(input("What is your first guess? "))
+
+def guesses_remaining():
+    print("You have " + str(guess - 1) + " guesses remaining"
+
 
 #  Begin guess/actual comparison loop
 for attempt_number in range(4, 0, -1):
-    guess = int(input("What is your first guess? "))
-
-    if guess > secret_number:
-        print("That's too high! You have " + str(attempt_number - 1) + " guesses remaining.")
+    if global guess > secret_number:
+        print("That's too high!")
     elif guess < secret_number:
-        print("That's too low! You have " + str(attempt_number - 1) + " guesses remaining.")
+        print("That's too low!")
     else:
         print("That's the number!")
         break
+    global guesses_remaining()
