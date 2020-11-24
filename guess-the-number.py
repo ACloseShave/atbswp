@@ -25,12 +25,12 @@ def guesses_remaining():
 
 #  Begin guess/actual comparison loop
 for attempt_number in range(4, 0, -1):
-    if global guess > secret_number:
+    if guess > secret_number:
             print("That's too high!")
     elif guess < secret_number:
             print("That's too low!")
     else:
         print("That's the number!")
         break
-    global guesses_remaining()
+    guesses_remaining()
 
