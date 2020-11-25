@@ -1,8 +1,12 @@
-# atbswp
-Following the Automate the Boring Stuff with Python projects
+# Automate the Boring Stuff with Python
+Following the lessons from Automate the Boring Stuff with Python by Al Sweigart
 
-This repo is dedicated to putting into version control the projects, practice exercises, and snippets of things from the Automate the Boring Stuff curriculum.
+This repo is dedicated to putting into version control the samples, practice exercises, projects, and code snippets of things from the Automate the Boring Stuff curriculum.
 
-It is not intended as a substitute for actual programming experience.
+By that, I mean I am writing (as best I know how, without using the original material where possible) the code myself to try and learn Python alongside version control practices.
 
-You can fork this project, but really—if you're trying to understand the material (instead of just 'Passing the test'), why would you copy the homework? Do it your own self!
+While you can fork this project, this is not intended as a replacement for coding experience.
+
+Seriously—if you're trying to understand (instead of merely 'Passing the test'), why would you copy the homework?
+
+Do it your own self!
