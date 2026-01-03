@@ -30,6 +30,7 @@ while True:
             break
         print('Type one of the valid options: (r)ock, (p)aper, (s)cissors, or (q)uit')
 
+    # TODO: Refactor this using DRY
     if player_move == 'r':
         print('ROCK versus..')
     if player_move == 'p':
@@ -37,6 +38,7 @@ while True:
     if player_move == 's':
         print('SCISSORS versus..')
 
+    # TODO: Refactor the same as above
     move_number = random.randint(1, 3)
     if move_number == 1:
         computer_move = 'r'
@@ -48,6 +50,7 @@ while True:
         computer_move = 's'
         print('SCISSORS')
 
+    # TODO: Refactor this in later lessons with DRY and different comparison mechanisms
     if player_move == computer_move:
         print('It is a tie!')
         ties = ties + 1
