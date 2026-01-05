@@ -24,6 +24,7 @@ print('Ask a yes or no question for the Magic 8 Ball to answer:')
 
 input('>')
 
+# TODO: refactor as: print(get_answer(random.randint(1,9)))
 r = random.randint(1, 9)
 
 fortune = get_answer(r)
