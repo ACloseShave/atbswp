@@ -14,7 +14,7 @@ def get_answer(answer_number):
     elif answer_number == 6:
         return 'Concentrate and ask again'
     elif answer_number == 7:
-        return 'My reply is nop'
+        return 'My reply is no'
     elif answer_number == 8:
         return 'Outlook not so good'
     elif answer_number == 9:
