@@ -5,7 +5,8 @@ guess = ''
 
 while guess not in ('heads', 'tails'):
     print('Guess the coin toss! Enter heads or tails:')
-    guess = input()                         # Problem 1: no input validation
+    guess = input()
+    guess = guess.lower()
 
 toss = random.randint(0, 1)
 if toss == 0:
